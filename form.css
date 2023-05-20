@@ -3,18 +3,30 @@
     padding: 0;
 }
 
+main {
+    max-width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content:cente;
+    background-color: rgb(240, 240, 240);
+    border: #2c2c31 1px solid transparent;
+}
+
+form {
+    padding: 1rem;
+}
 
 #titulo {
     font-family: sans-serif;
-    color: #d66000;
-    margin-left: 7%;
+    color: #ff780a;
+    margin-left: 18%;
 } 
 
 
 #subtitulo {
     font-family: sans-serif;
     color: #2b2b2e;
-    margin: 0em;
+    margin-left: 14%;
    border-radius: 0.2em;
 } 
 
@@ -29,7 +41,6 @@ fieldset {
 
 
 body{
-    background-image: url(imagem/fund.png);
     font-family: sans-serif;
     font-size: 1em;
     color: #2b2b2e;
@@ -121,5 +132,6 @@ fieldset .grupo .campo {
 
 
 .botao, select{
+    margin-left: 3%;
     cursor: pointer;
 } 
